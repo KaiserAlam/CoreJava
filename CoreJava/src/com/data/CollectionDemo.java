@@ -1,7 +1,6 @@
 package com.data;
 
 import java.util.ArrayList;
-import java.util.Iterator;
 
 public class CollectionDemo {
 
@@ -16,7 +15,7 @@ public class CollectionDemo {
 		student.add("Shawpon");
 		student.add("Shawon");
 
-		Iterator<?> itr = student.iterator();
+		java.util.Iterator<?> itr = student.iterator();
 		
 		while (itr.hasNext()) {
 			System.out.println(itr.next());
